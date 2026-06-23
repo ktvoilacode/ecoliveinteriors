@@ -22,7 +22,7 @@ img{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
 .wrap{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 28px}
 .eyebrow{font-size:11.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--brass);font-weight:600}
-h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacing:.005em}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacing:.005em;overflow-wrap:break-word}
 .btn{display:inline-flex;align-items:center;gap:9px;font-weight:500;font-size:14px;letter-spacing:.04em;padding:15px 30px;border-radius:1px;transition:.28s;border:1px solid transparent}
 .btn--brass{background:linear-gradient(135deg,var(--brass),var(--brass-2));color:#231a07}
 .btn--brass:hover{transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(201,168,106,.6)}
@@ -135,9 +135,9 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;letter-spacin
   .form .row{grid-template-columns:1fr}.sec{padding:74px 0}.hero{min-height:80vh}
 }
 @media(max-width:560px){
-  .wrap{padding:0 20px}
+  .wrap{padding:0 22px}
   .nav__in{height:64px}.brand{font-size:23px}
-  .hero{min-height:auto;padding-top:40px}.hero__in{padding:0 20px 56px}
+  .hero{min-height:auto;padding-top:40px}.hero__in{padding:0 22px 56px}
   .hero h1{font-size:clamp(2.6rem,11vw,3.4rem)}.hero__sub{font-size:1.04rem}
   .hero__cta .btn{flex:1;justify-content:center}.hero__scroll{display:none}
   .trust__in{gap:18px 24px}.trust__in div{flex:1 0 40%}
