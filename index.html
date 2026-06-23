@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ecolive Interiors — Templates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Plus Jakarta Sans",system-ui,sans-serif;background:#FBFCF9;color:#16201a;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:72px 24px}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#7C9A6B;font-weight:700}
+h1{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.02em;margin:12px 0 8px}
+.sub{color:#6b756d;margin-bottom:40px}
+.list{display:grid;gap:14px}
+.row{display:flex;align-items:center;gap:20px;padding:18px;background:#fff;border:1px solid #e6e8e2;border-radius:14px;text-decoration:none;color:inherit;transition:.2s}
+.row:hover{transform:translateY(-3px);box-shadow:0 18px 36px -22px rgba(30,58,43,.45);border-color:transparent}
+.sw{flex:none;width:160px;height:100px;border-radius:9px;object-fit:cover;object-position:top left;border:1px solid #e6e8e2;background:#f0f2ea}
+.txt{flex:1}
+.txt b{display:block;font-size:1.1rem;font-weight:700}
+.txt span{color:#6b756d;font-size:.92rem}
+.arrow{flex:none;color:#A3B18A;font-size:1.3rem}
+.note{margin-top:34px;font-size:13px;color:#9aa39b}
+@media(max-width:520px){.sw{width:104px;height:68px}.row{gap:14px;padding:14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Ecolive Interiors</p>
+  <h1>Three design directions</h1>
+  <p class="sub">Same content, three distinct looks. Open each, then pick one to take forward.</p>
+  <div class="list">
+    <a class="row" href="templates/atelier.html">
+      <img class="sw" src="assets/atelier.png" alt="Atelier template preview" loading="lazy" />
+      <span class="txt"><b>1 · Atelier</b><span>Light, editorial — warm cream &amp; serif type</span></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="row" href="templates/noir.html">
+      <img class="sw" src="assets/noir.png" alt="Noir template preview" loading="lazy" />
+      <span class="txt"><b>2 · Noir</b><span>Dark, cinematic — charcoal &amp; brass accents</span></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="row" href="templates/verde.html">
+      <img class="sw" src="assets/verde.png" alt="Verde template preview" loading="lazy" />
+      <span class="txt"><b>3 · Verde</b><span>Light, eco-modern — fresh green &amp; rounded cards</span></span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+  <p class="note">Images are placeholders · forms need wiring before launch.</p>
+</div>
+</body>
+</html>
